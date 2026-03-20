@@ -12,24 +12,16 @@ const leftLinks = [
 {
   label: 'Services',
   href: '#services'
-},
-{
-  label: 'Portfolio',
-  href: '#portfolio'
 }];
 
 const rightLinks = [
 {
+  label: 'Portfolio',
+  href: '#portfolio'
+},
+{
   label: 'Blog',
   href: '#blog'
-},
-{
-  label: 'Shop',
-  href: '#shop'
-},
-{
-  label: 'Pages',
-  href: '#pages'
 },
 {
   label: 'Contact',
@@ -131,7 +123,7 @@ export function Navbar() {
             href="#"
             className="font-serif text-3xl lg:text-4xl tracking-widest text-brand-dark uppercase">
             
-            Lovio
+            Planio
           </a>
         </div>
 

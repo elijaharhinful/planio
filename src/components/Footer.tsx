@@ -13,7 +13,7 @@ export function Footer() {
               href="mailto:hello@lovio.com"
               className="text-brand-gray hover:text-brand-accent transition-colors mb-4">
               
-              hello@lovio.com
+              hello@planio.com
             </a>
             <p className="text-brand-gray mb-4">+1 (555) 123-4567</p>
             <p className="text-brand-gray">New York, NY</p>
@@ -25,7 +25,7 @@ export function Footer() {
               href="#"
               className="font-serif text-5xl tracking-widest text-brand-dark uppercase mb-6">
               
-              Lovio
+              Planio
             </a>
             <p className="text-brand-gray text-center max-w-xs">
               Curating unforgettable moments and exquisite celebrations
