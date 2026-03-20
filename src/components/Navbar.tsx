@@ -50,7 +50,7 @@ export function Navbar() {
       {/* ── Desktop & Mobile Top Bar ── */}
       <div className="max-w-[1440px] mx-auto px-6 lg:px-12 h-20 lg:h-24 flex items-center justify-between">
         {/* Left Links — desktop only */}
-        <div className="hidden lg:flex items-center space-x-8 text-xs font-bold tracking-widest uppercase text-brand-dark w-1/3">
+        <div className="hidden lg:flex items-center justify-end space-x-8 text-xs tracking-widest uppercase text-brand-dark w-1/3">
           {leftLinks.map((l) =>
           <a key={l.href} href={l.href} className={linkClass}>
               {l.label}
@@ -128,7 +128,7 @@ export function Navbar() {
         </div>
 
         {/* Right Links — desktop only */}
-        <div className="hidden lg:flex items-center justify-end space-x-8 text-xs font-bold tracking-widest uppercase text-brand-dark w-1/3">
+        <div className="hidden lg:flex items-center justify-start space-x-8 text-xs tracking-widest uppercase text-brand-dark w-1/3">
           {rightLinks.map((l) =>
           <a key={l.href} href={l.href} className={linkClass}>
               {l.label}
@@ -181,7 +181,7 @@ export function Navbar() {
                 delay: 0.05 * i,
                 duration: 0.3
               }}
-              className="text-sm font-bold tracking-[0.2em] uppercase text-brand-dark hover:text-brand-accent transition-colors">
+              className="text-sm tracking-[0.2em] uppercase text-brand-dark hover:text-brand-accent transition-colors">
               
                   {l.label}
                 </motion.a>
